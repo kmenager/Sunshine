@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!--
+         Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+         It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+         or something similar.
+    -->
+    <string name="app_name">Sunshine</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Paramètres</string>
+    <string name="action_map">Ou suis-je ?</string>
+    <string name="action_share">Partager</string>
+
+    <string name="title_activity_detail">Détails</string>
+    <string name="title_activity_settings">Paramètres</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Lieu actuel</string>
+
+    <!-- Default city for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default">Paris</string>
+
+    <!-- Default country code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_country_code_default">fr</string>
+
+    <!-- Strings used when displaying the state of the Location in settings -->
+    <string name="pref_location_error_description">Lieu invalide (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_unknown_description">Recherche du lieu... (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_label">Notifications Météo</string>
+
+    <string name="pref_enable_notifications_true">Activées</string>
+    <string name="pref_enable_notifications_false">Désactivées</string>
+
+    <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">Unités de temperature</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_metric">Métrique</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_imperial">Impériale</string>
+
+    <!-- Label for the art pack preference [CHAR LIMIT=30] -->
+    <string name="pref_art_pack_label">Pack d\'icône</string>
+
+    <!-- Label for Sunshine option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_sunshine">Sunshine</string>
+
+    <!-- Label for cute dogs option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_cute_dogs">Cute dogs</string>
+
+    <!-- Format for month day view -->
+    <string name="format_month_day">dd MMMM</string>
+
+    <!-- Format for Friendly Day view -->
+    <string name="format_friendly_day">EEE dd MMM</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g> <xliff:g id="day">%2$s</xliff:g></string>
+
+    <!-- Language-specific constants -->
+    <string name="today">Aujourd\'hui</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Demain</string>
+
+    <string name="wind">Vent</string>
+    <string name="pressure">Pression</string>
+    <string name="humidity">Humidité</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification">Prévision : <xliff:g id="condition">%1$s</xliff:g> Max: <xliff:g id="high">%2$s</xliff:g> Min: <xliff:g id="low">%3$s</xliff:g></string>
+
+    <!-- Empty Weather Database -->
+    <string name="empty_forecast_list">Pas d\'information météo disponible</string>
+    <string name="empty_forecast_list_no_network">Pas d\'information météo disponible. Aucune connexion disponible pour récupérer les informations météo.</string>
+    <string name="empty_forecast_list_server_down">Pas d\'information météo disponible. Le serveur ne retourne aucune valeur.</string>
+    <string name="empty_forecast_list_server_error">Pas d\'information météo disponible. Le serveur ne retourne pas de valeur valide.</string>
+    <string name="empty_forecast_list_invalid_location">Pas d\'information météo disponible. Le lieu dans les paramètres n\'est pas reconnue par le serveur de météo.</string>
+
+    <!-- A11y -->
+    <string name="a11y_forecast">Prévision : <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Prévision icon: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">Max : <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Min : <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Humidité : <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Pression atmosphérique : <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Vitesse du vent et direction : <xliff:g id="wind">%1$s</xliff:g></string>
+
+    <!-- Weather Conditions -->
+    <string name="condition_2xx">Tempête</string>
+    <string name="condition_3xx">Bruine</string>
+    <string name="condition_500">Pluie légère</string>
+    <string name="condition_501">Pluie modérée</string>
+    <string name="condition_502">Pluie forte</string>
+    <string name="condition_503">Pluie forte</string>
+    <string name="condition_504">Pluie forte</string>
+    <string name="condition_511">Pluie verglaçante</string>
+    <string name="condition_520">Pluie légère</string>
+    <string name="condition_521">Pluie</string>
+    <string name="condition_522">Pluie forte</string>
+    <string name="condition_531">Pluie forte</string>
+    <string name="condition_600">Neige</string>
+    <string name="condition_601">Neige</string>
+    <string name="condition_602">Tempête de neige</string>
+    <string name="condition_611">Grésil</string>
+    <string name="condition_612">Grésil</string>
+    <string name="condition_615">Neige et pluie</string> <!-- light rain and snow -->
+    <string name="condition_616">Neige et pluie</string>
+    <string name="condition_620">Neige légère</string> <!-- light shower snow -->
+    <string name="condition_621">Neige</string>
+    <string name="condition_622">Neige épaisse</string> <!-- heavy shower snow -->
+    <string name="condition_701">Brouillard</string>
+    <string name="condition_711">Brouillard</string>
+    <string name="condition_721">Brume</string>
+    <string name="condition_731">Poussière</string>
+    <string name="condition_741">Brouillard</string>
+    <string name="condition_751">Sable</string>
+    <string name="condition_761">Poussière</string>
+    <string name="condition_762">Cendre volcanique</string>
+    <string name="condition_771">Bourrasques</string>
+    <string name="condition_781">Tornade</string>
+    <string name="condition_800">Ensoleillé</string>
+    <string name="condition_801">Principalement Ensoleillé</string>
+    <string name="condition_802">Nuage épars</string>
+    <string name="condition_803">Nuageux</string>
+    <string name="condition_804">Ciel couvert</string>
+    <string name="condition_900">Tornade</string>
+    <string name="condition_901">Tempête tropicale</string>
+    <string name="condition_902">Ouragan</string>
+    <string name="condition_903">Froid</string>
+    <string name="condition_904">Chaud</string>
+    <string name="condition_905">Venteux</string>
+    <string name="condition_906">Grêle</string>
+    <string name="condition_951">Calme</string>
+    <string name="condition_952">Légère brise</string>
+    <string name="condition_953">Petite brise</string>
+    <string name="condition_954">Brise</string> <!-- moderate breeze -->
+    <string name="condition_955">Légère brise</string>
+    <string name="condition_956">Forte brise</string>
+    <string name="condition_957">Vent</string>
+    <string name="condition_958">Rafale</string>
+    <string name="condition_959">Forte Rafale</string>
+    <string name="condition_960">Tempête</string>
+    <string name="condition_961">Tempête violente</string>
+    <string name="condition_962">Ouragan</string>
+
+    <string name="condition_unknown">Inconnue (<xliff:g id="low">%1$s</xliff:g>)</string>
+
+    <!-- Strings related to Widgets -->
+    <string name="title_widget_today">Sunshine Aujourd\'hui</string>
+    <string name="title_widget_detail">Sunshine Détails</string>
+
+    <!-- Strings related to Muzei Source -->
+    <string name="muzei_description">Météo d\'aujourd\'hui</string>
+</resources>
